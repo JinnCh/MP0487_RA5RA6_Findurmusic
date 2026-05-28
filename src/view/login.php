@@ -4,7 +4,7 @@ session_start();
 // Mostrar el mensaje de error si está presente
 if (isset($_SESSION['error'])) {
     echo "<h1>{$_SESSION['error']}</h1>";
-    unset($_SESSION['error']); // Eliminar el mensaje de error después de mostrarlo
+    unset($_SESSION['error']); // Eliminar el mensaje de error después de mostrarlo.
 }
 
 
